@@ -6,7 +6,7 @@ browser: 'chrome'
 })
 .then((results) => {
   const args = {
-    target: process.env.TARGET_TOKEN_ELECTRON,
+    target: process.env.TARGET_TOKEN_CHROME,
   }
   tesults.results(results, args);
 })
