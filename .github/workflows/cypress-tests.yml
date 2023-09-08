@@ -18,5 +18,5 @@ jobs:
         run: yarn install
 
       - name: Run E2E tests
-        run: ${{ gitgub.event.inputs.cli }}
+        run: ${{ github.event.inputs.cli }}
       
